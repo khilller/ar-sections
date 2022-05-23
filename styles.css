@@ -4,13 +4,11 @@
 body{
         margin:0;
         background-color: black;
-        max-width: 100%;
         overflow-x: hidden;
     }
     
  .body-01{
         font-family: "Space Mono", monospace;
-        max-width: 100%;
     }
     
 #navbar{
@@ -48,6 +46,8 @@ body{
         padding-left: 4rem;
         padding-right: 4rem;
 
+        margin-bottom: 10%;
+
     }
 
 #common-prop{
@@ -64,6 +64,12 @@ body{
         border-radius: 20px;
         text-align: center;
     }
+    #sec_1 {
+        padding: 33% 0 33% 0; /*keep the top and bottom padding at 8% so that the image is easily viewable*/
+        background-color: #F27405;
+        border-radius: 20px;
+        text-align: center;
+    }
 
     .image {
         display: relative;
@@ -72,6 +78,13 @@ body{
         max-width: 80%; /*keep the image size at 70 to fit the section*/
         max-height: auto;
 
+    }
+
+    model-viewer {
+        display: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
     .footer {
