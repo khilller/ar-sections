@@ -119,7 +119,7 @@ body{
         .grid{
             display: grid;
             grid-template-columns: repeat(2,1fr);
-            gap: 5% 5%;
+            gap: 2% 2%;
         }
         
         #sec_1 {
@@ -131,4 +131,39 @@ body{
              text-align: center;
          }
         
+    }
+
+    @media(min-width: 993px) {
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 2%, 2%
+        }
+
+        #sec_1 {
+            /* padding: 33% 0 33% 0; keep the top and bottom padding at 8% so that the image is easily viewable*/
+            background-color: #F27405;
+             border-radius: 20px;
+             width: 100%;
+             height: 25rem;
+             text-align: center;
+         }
+    }
+
+    @media(min-width: 1900px) {
+
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 2% 2%;
+        }
+
+        #sec_1 {
+            /* padding: 33% 0 33% 0; keep the top and bottom padding at 8% so that the image is easily viewable*/
+            background-color: #F27405;
+             border-radius: 15px;
+             width: 100%;
+             height: 25rem;
+             text-align: center;
+         }
     }
